@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; 
+    color: #1a202c; 
+}
+
+header {
+    background-color: #2b6cb0; 
+    color: #f7fafc; 
+    padding: 20px;
+    text-align: center;
+    font-family: "Fredoka One", sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    text-shadow: 2px 2px 0px #1a202c, 
+                 -2px 2px 0px #1a202c, 
+                 2px -2px 0px #1a202c, 
+                 -2px -2px 0px #1a202c; 
+    position: relative;
+}
+
+
+header a.linkedin-link {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f7fafc; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header a.linkedin-link:hover {
+    text-decoration: underline; 
+}
+
+
+.abstract {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.words {
+    width: 100%;
+    text-align: center;
+    background-color: #e6fffa;
+    padding: 20px 10px;
+}
+
+.words h1 {
+    margin-bottom: 10px;
+    color: #2c5282; 
+}
+
+.words p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #2f855a; 
+}
+
+.main-content {
+    flex: 3;
+    margin-right: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f0fff4; 
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recovery-phase {
+    background-color: #ffffff; 
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #cbd5e0; 
+}
+
+.footer {
+    background-color: #2b6cb0; 
+    color: #f7fafc; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer a {
+    color: #48bb78; 
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #38a169; 
+}
+
+video, iframe {
+    display: block;
+    margin: 5px 0;
+    max-width: 100%;  
+    border: 1px solid #cbd5e0; 
+    border-radius: 8px; 
+}
